@@ -21,5 +21,26 @@ public class Frases {
         this.poster = poster;
     }
 
+    public Frases() {
+    }
 
+    public Long getId() {
+        return id;
+    }
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public String getFrase() {
+        return frase;
+    }
+
+    public String getPersonagem() {
+        return personagem;
+    }
+
+    public String getPoster() {
+        return poster;
+    }
 }
